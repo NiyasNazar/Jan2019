@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:hint="name"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edittext_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+android:hint="price"
+        android:id="@+id/edittext_item_price"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <EditText
+        android:hint="quantity"
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/edittext_item_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+<Button
+    android:id="@+id/add_item"
+    android:text="Add Item"
+    android:layout_width="150dp"
+    android:layout_height="45dp" />
+
+</LinearLayout>
